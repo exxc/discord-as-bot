@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "gg sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/66d715454104d24e.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "gg sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/b272b33815319bae.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "gg sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/2df2c3ff74408972.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "gg sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/189422196a4f8b53.woff2") format("woff2");
+}
+
+:root {
+  font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  line-height: 1;
+  user-select: none;
+}
+
+.channelContainer:hover .channelName,
+.memberContainer:hover .memberName {
+  background: rgba(78, 80, 88, 0.3);
+  color: oklab(0.89908 -0.00192907 -0.0048306);
+}
+
+.scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
