@@ -29,7 +29,7 @@
   let members = $state(
     [...new Array(15).keys()].map(v => ({
       name: `member-${v.toString().padStart(3, "0")} ${"あ".repeat(30)}`,
-      iconUrl: "/9855d7e3b9780976.png",
+      iconUrl: import.meta.env.BASE_URL + "/9855d7e3b9780976.png",
       isBot: v > 12
     }))
   );
